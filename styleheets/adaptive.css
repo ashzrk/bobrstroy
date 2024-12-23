@@ -1,0 +1,236 @@
+@media (max-width: 767px) {
+   
+    .cover_banner {
+        align-items: center;
+       padding-left: 8.5vw;
+     background-color:rgba(248, 123, 33, 1) ;
+        display: flex;
+        height: 76.6vw;
+        width: 100%;
+        animation:  none;
+    
+       }
+
+      .teth_mobileanim {
+        width: 100vw;
+        z-index: 1;
+        position: absolute;
+        display: block;
+        animation: bgmob 4s infinite steps(2);
+      }
+
+      @keyframes bgmob {
+    
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+      }
+
+      .item {
+        width: 45.2vw;
+        height: 40.6vw;
+      }
+      .flex_box {
+        margin-top: 1.6vw;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      } 
+
+.f1 {
+  margin-bottom: 1.6vw;
+}
+      .flex {
+        box-sizing: border-box;
+        border:none;
+        border-radius: 3vw;
+        width: 93.5vw;
+      height: 55vw;
+        background: rgb(248, 123, 33);
+        
+      }
+      .flex3 {
+        box-sizing: border-box;
+      border: 0.15vw solid rgb(0, 0, 0);
+      border-radius: 1.5vw;
+      
+      background: rgb(107, 211, 255);
+      width: 94vw;
+      height: 110vw;
+      }
+
+
+
+      .gorizont {
+        margin-left: 1.3vw;
+      }
+      
+      .bgflex1 {
+        width:93.4vw;
+        position: absolute;
+       
+      }
+      .bgflex2 {
+        width:93.4vw;
+        animation: bgflex 1s infinite steps(2) ;
+        position: absolute;
+      }
+
+
+      .bgflex3 {
+        z-index: 2;
+        width:93.4vw;
+        position: absolute;
+        opacity: 0;
+      }
+      .bgflex4 {
+        width:93.4vw;
+        z-index: 1;
+   
+        position: absolute;
+       
+      }
+      .bgflex3:hover {
+       opacity: 1;
+      }
+      .gorizont {
+        margin-top: 4vw;
+        margin-left: 0vw;
+      }
+      .brevna_all {
+    
+        top: 0vw;
+        left: 9vw;
+        position: relative;
+        width: 80vw;
+      }
+    
+      .minib2 {
+     
+        width: 34vw;
+        left: 6vw;
+        animation: brevno1 3s infinite alternate 0.2s ;
+        position: relative;
+      }
+      .minib1 {
+        width: 32vw;
+        left: 5vw;
+        position: relative;
+        animation: brevno1 3s infinite alternate  0.1s;
+      }
+    
+      .minib3 {
+        width: 35vw;
+        transform: rotate(156.64deg);
+        left: 8vw;
+        animation: brevno1 3s infinite alternate  0.3s;
+        position: relative;
+      }
+      .minib4 {
+        transform: rotate(-200deg);
+        width: 29vw;
+        left: 8vw;
+        animation: brevno1 3s infinite alternate  0.35s;
+        position: relative;
+      }
+      .minib5 {
+        width: 32vw;
+        transform: rotate(156.64deg);
+        left: 8vw;
+        animation: brevno1 3s infinite alternate  0.4s;
+        position: relative;
+      }
+      .minib6 {
+        transform: rotate(-200deg);
+        width: 36vw;
+        left: 8vw;
+        animation: brevno1 3s infinite alternate  0.4s;
+        position: relative;
+      }
+
+
+
+
+
+
+
+
+
+
+
+      .stop_mot_anim {
+        position: absolute;
+        left: 1vw;
+        top: 367.5vw;
+        width: 93.4vw;
+        height: 35vw;
+        border-radius: 0;
+       
+        background-image: url(../images/a10.svg);
+        background-size: 93.4vw ;
+        animation: man  2.5s steps(1) infinite;
+        background-repeat: no-repeat;
+      }
+      
+
+
+
+
+
+
+
+
+
+
+      .footer_flexbox {
+        width: min-content;
+        flex-direction: column-reverse;
+        justify-content: none;
+        align-items: none;
+        position: relative;
+        display: flex;
+        margin-top: 34vw;
+       
+        z-index: 3;
+      }
+      .f1 {
+    margin-top: 2vw;
+        position: relative;
+        display: flex;
+      }
+      
+      .bobrfot1 {
+        width: 93.4vw;
+      }
+      .bobrfot2 {
+        width: 93.4vw;
+        position: absolute;
+        opacity: 0;
+      }
+      .bobrfot2:hover{
+        opacity: 1;
+      }
+      .f2 {
+        margin-left: 1vw;
+        position: relative;
+        display: flex;
+      }
+      .lapa1 {
+        width: 93.4vw;
+      }
+      .lapa2 {
+        width: 93.4vw;
+        position: absolute;
+        opacity: 0;
+      }
+      .lapa2:hover {
+  
+        opacity: 1;
+      }
+   }
+
+  

@@ -1,0 +1,87 @@
+@keyframes bg {
+    0% {
+      background:  url(../images/orangebg.svg);
+      background-size: 100vw 41.7vw;
+      background-repeat: no-repeat;
+    }
+  
+    100% {
+      background:  url(../images/teath.svg);
+      background-size: 100vw 41.7vw;
+      background-repeat: no-repeat;
+    }
+   }
+   @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1.5vw));
+    }
+  }
+  @keyframes bgflex {
+    0% {
+     display: none;
+    }
+   
+    100% {
+      display: block;
+    }
+  }
+  @keyframes brevno1 {
+    0% {
+      top:  0vw;
+    }
+    100% {
+      top: 35vw;
+      
+    }
+  }
+  @keyframes txtfoot{
+    0% {
+        transform: translateX(0)
+    }
+    100% {
+        transform: translateX(-50%)
+    }
+  }
+  @keyframes man {
+    0% { 
+      background-image: url(../images/a1.svg);
+      
+    }
+    10% { 
+      background-image: url(../images/a2.svg);
+      
+    }
+  
+    30% { 
+      background-image: url(../images/a4.svg);
+      
+      }
+    40% { 
+        background-image: url(../images/a5.svg);
+        
+      }
+    50% {
+        background-image: url(../images/a6.svg);
+        
+      }
+      60% {
+        background-image: url(../images/a7.svg);
+        
+      }
+      70% {
+        background-image: url(../images/a8.svg);
+        
+        }
+        80% {
+          background-image: url(../images/a9.svg);
+          
+        }
+        90% {
+          background-image: url(../images/a10.svg);
+          
+        }
+     
+  }
